@@ -664,97 +664,50 @@
 			<section class="contactBlock d-flex position-relative text-center">
 				<div class="alignCenter w-100 d-flex align-items-center">
 					<div class="container py-12 py-md-15 py-lg-18 pt-xl-20 pb-xl-19">
-						<div class="row">
-							<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-								<header class="header position-relative">
-									<a href="https://wa.me/85297211314" class="btn btn-sm btn-outline-primary text-uppercase mb-4 fwSemibold">Call us: <span>+852-97211314</span></a>
-									<h5 class="h1 mx-xl-n2 mb-2">
-										<strong class="d-block fwSemibold">Whatever the challenge, we </strong>
-										<strong class="d-block fwSemibold">deliver a solution.</strong>
-									</h5>
-									<p>
-										<span class="d-block">Agencies around the world are moving to the digital agencies. </span>
-										<span class="d-block">So, It is high time to introduce your agency digitaly.</span>
-									</p>
-									<div class="btnHolder">
-										<a href="javascript:void(0);" class="btn btn-primary rounded-pill text-uppercase fwSemibold" data-toggle="modal" data-target="#exampleModal">Contact us <span class="fas fa-arrow-right ml-2"></span></a>
-									</div>
-								</header>
-
-								<form action="https://send.pageclip.co/pQj7XjdHKTs0T43CEFRH5fALko34T542/d-biz" class="pageclip-form" method="post">
-                                        
-                              <!-- text field -->
-                              Name <br>
-                              First Name* <input type="text" name="first_name" placeholder="John" required />
-                              Last Name* <input type="text" name="last_name" placeholder="Chan" required/>
-                              <br>
-                              <br>
-                              Email*:
-                              <input type="email" name="email" value="" required />
-                              <br>
-                              <br>
-                              Contact Number (Area Code + Your Number):
-                              <input type="number" name="number" value="" required/>
-                              <br>
-                              <br>
-                              Company Name:
-                              <input type="text" name="company_name" value="" required/>
-                              <br>
-                            
-                                <br>Demo Requested?
-                                <input type="checkbox" name="Demo" id="demo" />
-                                <label htmlFor="Demo"> Yes </label>
-                                <br>
-
-                                <br>
-                                <!-- checkboxes -->
-                                Technology solution interested?
-                                <br>
-                                <input type="checkbox" name="interested[ecommerce]" id="ecommerce" />
-                                <label htmlFor="ecommerce">Online Store/ Ecommerce 🛒</label>
-                                <br>
-                                <input type="checkbox" name="interested[E-marketing]" id="pizza" />
-                                <label htmlFor="E-marketing">Digital marketing 📢</label>
-                                <br>
-                                <input type="checkbox" name="interested[delivery]" id="delivery" />
-                                <label htmlFor="delivery">Online order taking & delivery, smart self-service system 🚚</label>
-                                <br>
-                                <input type="checkbox" name="interested[customer_service]" id="customer_service" />
-                                <label htmlFor="customer_service">Online customer services & engagement 💬</label>
-                                <br>
-                                <input type="checkbox" name="interested[document]" id="document"/>
-                                <label htmlFor="document">Remote document management, cloud storage & remote access services ☁️</label>
-                                <br>
-                                <input type="checkbox" name="interested[digital_experience]" id="ecommerce" />
-                                <label htmlFor="ecommerce">Digital customer experience enhancement</label>
-                                <br>
-                                <input type="checkbox" name="interested[E-finance]" id="pizza" />
-                                <label htmlFor="E-marketing">Cloud based Financial management system</label>
-                                <br>
-                                <input type="checkbox" name="interested[E-HR]" id="delivery" />
-                                <label htmlFor="delivery">Cloud based Human resources management system</label>
-                                <br>
-                                <input type="checkbox" name="interested[E-meeting]" id="customer_service" />
-                                <label htmlFor="customer_service">Virtual meeting & conference tool</label>
-                                <br>
-                                <input type="checkbox" name="interested[cybersecurity]" id="document"/>
-                                <label htmlFor="document">Cybersecurity</label>
-                                <br>
-                                <input type="checkbox" name="interested[ERP]" id="document"/>
-                                <label htmlFor="document">ERP</label>
-                                <br>
-                                <!-- hidden inputs -->
-                                <input type="hidden" name="version" value="v1" />
-                                <button class="pageclip-form__submit" type="submit">
-                                    <span>Submit</span>
-                                </button>
-             
-                                
-                          </form>
+						<div class="contactForm modal-body py-10 px-4 pt-sm-13 pb-sm-14 px-sm-11">
+							<!-- contactForm of the page -->
 	
-
-
-							</div>
+	
+	
+	
+							
+	
+	
+	
+	
+	
+							<form id="contactForm" action="https://send.pageclip.co/pQj7XjdHKTs0T43CEFRH5fALko34T542/Site-0x2a" data-toggle="validator" class="pageclip-form" method="post">
+								<h6 class="h6 text-capitalize mb-1">Contact us</h6>
+								<p>for the products, teaching or courses</p>
+								 <button type="button" class="close position-absolute" data-dismiss="modal" aria-label="Close">
+									 <span aria-hidden="true">&times;</span>
+								</button>
+								<div class="row">
+									<div class="col-12">
+										<input  class="form-control" name="name" type="text" placeholder="Your Name" value="" required data-error="NEW ERROR MESSAGE">
+									</div>
+									<div class="col-12">
+										<input  class="form-control" name="email" type="email" placeholder="Your Email" value="" required data-error="NEW ERROR MESSAGE">
+									</div>
+									<div class="col-12">
+										<input  class="form-control" name="number" type="text" placeholder="Your Number" value="" required data-error="NEW ERROR MESSAGE">
+									</div>
+									<div class="col-12">
+										<textarea  class="form-control" name="message" placeholder="Your Message" value="" required data-error="NEW ERROR MESSAGE"></textarea>
+									</div>
+	<!-- 								<div class="col-12">
+										<div id="msgSubmit" class="form-message"></div>
+									</div> -->
+									<div class="col-12">
+										<!-- <button type="submit" class="btn btn-primary py-3 w-100 text-uppercase rounded-pill fwSemibold"><span> send your message </span></button> -->
+										<input type="hidden" name="version" value="v1" />
+										<button type="submit" class="btn btn-primary py-3 w-100 text-uppercase rounded-pill fwSemibold pageclip-form__submit">
+											<span>Send</span>
+										  </button>
+									</div>
+								</div>
+							</form>
+						</div>
 						</div>
 					</div>
 				</div>
